@@ -1,0 +1,148 @@
+.header__image{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    top: 0;
+}
+
+.header--main {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__navbar{
+    /* min-height: 40px;
+    margin: 16px 1519px 56px 0; */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin-top: 16px;
+    height: 40px; 
+}
+
+.header__navbar-list{
+    position: relative;
+    padding-left: 0;
+    margin: auto 16px;
+    width: 170px;
+    left: 1200px;
+    top: 16px;
+    /* right: 845px;
+    bottom: 56px;
+    display: flex; */
+}
+
+.header__navbar-item{
+    color: var(--white-color);
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+    min-width: 668px;
+    line-height: 114px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: var(--white-color);
+}
+
+.form{
+    border-radius: 32px;
+    background-color: rgb(237, 244, 251);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    width: 350px;
+}
+
+.fa-solid{
+    font-size: 35px;
+}
+
+.fa-location-dot{
+    color: gray;
+    margin: 8px 10px 8px;
+}
+
+.form__input{
+    background-color: rgb(237, 244, 251);
+    border: none;
+    flex-grow: 1;
+}
+
+.fa-arrow-right{
+    color: gray;
+    margin: 8px 10px 8px;
+}
+
+.u{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+span{
+    font-size: 16px;
+    display: block;
+    color: var(--white-color);
+    text-decoration: underline;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+.container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container__row-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    margin: 10px 80px;
+}
+
+.container__row-item-a{
+    margin-top: 15px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(206, 34, 34);
+    text-decoration: none;
+}
+.fa-arrow-right-long{
+    color: rgb(206, 34, 34);
+    font-size: 18px;
+    margin-left: 8px;
+}
