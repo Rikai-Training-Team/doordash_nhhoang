@@ -14,3 +14,21 @@ html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(219, 214, 214)
+}
+
+.grid__column{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
